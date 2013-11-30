@@ -31,7 +31,7 @@
 
     if (this.options.remote) this.$element.load(this.options.remote)
   }
-  
+
   Modal.DEFAULTS = {
       backdrop: true
     , keyboard: true
@@ -142,7 +142,7 @@
       that.$element.trigger('hidden.bs.modal')
     })
   }
-  
+
   Modal.prototype.removeBackdrop = function () {
     this.$backdrop && this.$backdrop.remove()
     this.$backdrop = null
