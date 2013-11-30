@@ -84,3 +84,32 @@
     if (!this.$tip) this.$tip = $(this.options.template)
     return this.$tip
   }
+  
+  // POPOVER PLUGIN DEFINITION
+  // =========================
+
+  var old = $.fn.popover
+
+  $.fn.popover = function (option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.popover')
+      var options = typeof option == 'object' && option
+
+      if (!data) $this.data('bs.popover', (data = new Popover(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  $.fn.popover.Constructor = Popover
+
+
+  // POPOVER NO CONFLICT
+  // ===================
+
+  $.fn.popover.noConflict = function () {
+    $.fn.popover = old
+    return this
+  }
+
+}(window.jQuery);
