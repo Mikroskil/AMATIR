@@ -1,0 +1,281 @@
+
+body {
+	background: url('../img/noisy_grid.png') 0 0 repeat;
+}
+
+#glosarium {
+	position: relative;
+	transition-property: background-color, color;
+	transition-duration: 2s;
+	transition-timing-function: ease-out;
+}
+#glosarium:hover {
+	background: #000;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+	color: #FFF;
+	}
+#soal {
+	position: relative;
+	transition-property: background-color, color;
+	transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+#soal:hover {
+	background: #000;
+	color: #FFF;
+	transition-duration: 2s;
+  transition-timing-function: ease-out;
+	}
+#daftar {
+	position: relative;
+	transition-property: background-color, color;
+	transition-duration: 2s;
+	transition-timing-function: ease-out;
+}
+#daftar:hover {
+	background: #000;
+	transition-duration: 2s;
+  transition-timing-function: ease-out;
+	color: #FFF;
+}
+.ukuran {
+	height: 200px;
+	border-radius: 30px;
+	color: #FFF;
+	}
+.ukuran a{
+	color: #FFF;
+	vertical-align: bottom;
+	text-align: right;
+	}
+.dropdown-menu li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+#satu {
+	background: #1abc9c;
+	}
+#satu:hover {
+	border: 10px solid #000;
+	}
+#dua {
+	background: #16a085;
+	}
+#dua:hover {
+	background: #1abc9c;
+	border: 10px solid #000;
+	}
+#tiga {
+	background: #2ecc71;
+	}
+#tiga:hover {
+	background: #27ae60;
+	border: 10px solid #000;
+	}
+#empat {
+	background: #27ae60;
+	}
+#empat:hover {
+	background: #2ecc71;
+	border: 10px solid #000;
+	}
+#lima {
+	background: #3498db;
+	}
+#lima:hover {
+	background: #2980b9;
+	border: 10px solid #000;
+	}
+#enam {
+	background: #2980b9;
+	}
+#enam:hover {
+	background: #3498db;
+	border: 10px solid #000;
+	}
+#tujuh {
+	background: #9b59b6;
+	}
+#tujuh:hover {
+	background: #8e44ad;
+	border: 10px solid #000;
+	}
+#lapan {
+	background: #8e44ad;
+	}
+#lapan:hover {
+	background: #9b59b6;
+	border: 10px solid #000;
+	}
+#sem {
+	background: #34495e;
+	}
+#sem:hover {
+	background: #2c3e50;
+	border: 10px solid #000;
+	}
+#sep {
+	background: #2c3e50;
+	}
+#sep:hover {
+	background: #34495e;
+	border: 10px solid #000;
+	}
+#sebelas {
+	background: #f1c40f;
+	}
+#sebelas:hover {
+	background: #f39c12;
+	border: 10px solid #000;
+	}
+#duabelas {
+	background: #f39c12;
+	}
+#duabelas:hover {
+	background: #f1c40f;
+	border: 10px solid #000;
+	}
+#tigabelas {
+	background: #e67e22;
+	}
+#tigabelas:hover {
+	background: #d35400;
+	border: 10px solid #000;
+	}
+#empatbelas {
+	background: #d35400;
+	}
+#empatbelas:hover {
+	background: #e67e22;
+	border: 10px solid #000;
+	}
+#limabelas {
+	background: #e74c3c;
+	}
+#limabelas:hover {
+	background: #c0392b;
+	border: 10px solid #000;
+	}
+#enambelas {
+	background: #c0392b;
+	}
+#enambelas:hover {
+	background: #e74c3c;
+	border: 10px solid #000;
+	}
+#tujuhbelas {
+	background: #00FFFF;
+	}
+#tujuhbelas:hover {
+	background: #00CCCC;
+	border: 10px solid #000;
+	}
+#lapanbelas {
+	background: #00CCCC;
+	}	
+#lapanbelas:hover {
+	background: #00FFFF;
+	border: 10px solid #000;
+	}
+::-webkit-scrollbar {
+	width: 15px;
+	background: #E8E8E8;
+}
+::-webkit-scrollbar-thumb {
+	background: #91c1f7;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #4775D1;
+}
+::-webkit-scrollbar-button 
+{  
+	background-color: #BDDAFA; 
+}
+.wide-modal {
+	width: 100%;
+	}
+.fonta {
+	font-size: 23px;
+	}
+.fonta:hover {
+	color: #000;
+	}
+.modal-title {
+	color: #FFF;
+	}
+.satu {
+	background: #1abc9c;
+	}
+.dua {
+	background: #16a085;
+	}
+.tiga {
+	background: #2ecc71;
+	}
+.empat {
+	background: #27ae60;
+	}
+.lima {
+	background: #3498db;
+	}
+.enam {
+	background: #2980b9;
+	}
+.tujuh {
+	background: #9b59b6;
+	}
+.lapan {
+	background: #8e44ad;
+	}
+.sem {
+	background: #34495e;
+	}
+.sep {
+	background: #2c3e50;
+	}
+.sebelas {
+	background: #f1c40f;
+	}
+.duabelas {
+	background: #f39c12;
+	}
+.tigabelas {
+	background: #e67e22;
+	}
+.empatbelas {
+	background: #d35400;
+	}
+.limabelas {
+	background: #e74c3c;
+	}
+.enambelas {
+	background: #c0392b;
+	}
+.tujuhbelas {
+	background: #00FFFF;
+	}
+.lapanbelas {
+	background: #00CCCC;
+	}	
+#latar {
+	background: #e5e5e5;
+	}
+
+tbody tr:nth-child(odd):hover{
+	background: #d9534f;
+	color: #FFF;
+}
+.garis {
+	border: 1px solid #99AD99;
+	}
+.alertback {
+	background: linear-gradient(to top, #CCFFCC, #99CCFF,#FF99FF);
+	}
+dd {
+	padding-bottom: 20px;
+	margin-left: 30px;
+	}
+#panelnav {
+	background: #e5e5e5;
+	}
