@@ -55,128 +55,150 @@ body {
 	}
 #satu {
 	background: #1abc9c;
+	text-align:center;
 	}
 #satu:hover {
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #dua {
 	background: #16a085;
+	text-align:center;
 	}
 #dua:hover {
 	background: #1abc9c;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #tiga {
 	background: #2ecc71;
+	text-align:center;
 	}
 #tiga:hover {
 	background: #27ae60;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #empat {
 	background: #27ae60;
+	text-align:center;
 	}
 #empat:hover {
 	background: #2ecc71;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #lima {
 	background: #3498db;
+	text-align:center;
 	}
 #lima:hover {
 	background: #2980b9;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #enam {
 	background: #2980b9;
+	text-align:center;
 	}
 #enam:hover {
 	background: #3498db;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #tujuh {
 	background: #9b59b6;
+	text-align:center;
 	}
 #tujuh:hover {
 	background: #8e44ad;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #lapan {
 	background: #8e44ad;
+	text-align:center;
 	}
 #lapan:hover {
 	background: #9b59b6;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #sem {
 	background: #34495e;
+	text-align:center;
 	}
+#semb {
+	text-align:center;
+	font-size:20px;
+}
 #sem:hover {
 	background: #2c3e50;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #sep {
 	background: #2c3e50;
+	text-align:center;
 	}
 #sep:hover {
 	background: #34495e;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #sebelas {
 	background: #f1c40f;
+	text-align:center;
 	}
 #sebelas:hover {
 	background: #f39c12;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #duabelas {
 	background: #f39c12;
+	text-align:center;
 	}
 #duabelas:hover {
 	background: #f1c40f;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #tigabelas {
 	background: #e67e22;
+	text-align:center;
 	}
 #tigabelas:hover {
 	background: #d35400;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #empatbelas {
 	background: #d35400;
+	text-align:center;
 	}
 #empatbelas:hover {
 	background: #e67e22;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #limabelas {
 	background: #e74c3c;
+	text-align:center;
 	}
 #limabelas:hover {
 	background: #c0392b;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #enambelas {
 	background: #c0392b;
+	text-align:center;
 	}
 #enambelas:hover {
 	background: #e74c3c;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #tujuhbelas {
 	background: #00FFFF;
+	text-align:center;
 	}
 #tujuhbelas:hover {
 	background: #00CCCC;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 #lapanbelas {
 	background: #00CCCC;
+	text-align:center;
 	}	
 #lapanbelas:hover {
 	background: #00FFFF;
-	border: 10px solid #000;
+	border: 2px solid #000;
 	}
 ::-webkit-scrollbar {
 	width: 15px;
