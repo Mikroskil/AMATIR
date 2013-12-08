@@ -303,5 +303,9 @@ dd {
 	}
 #whywhy {
 	overflow-y: scroll;
-	height: 900px;
+	height: 700px;
+	}
+.nav > li > a:hover {
+	background: #99FFCC;
+	color: #000;
 	}
