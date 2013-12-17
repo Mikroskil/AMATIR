@@ -1765,12 +1765,35 @@ function hasil9()
 					<div class="col-md-9">
 						<div id="whywhy">
 
+<script language="javascript">
+function hasil10()
+{
+	var jlh=0;
+	
+	if(document.getElementById("{-10,-7,-5,-2,-1,2}").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("2/3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("5/3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("2,-3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("2x-y=11").checked==true){
+	jlh++;}
+	
+	return document.chek10.skor.value=jlh;
+}
+</script>
 <form name="chek10" method="post">
 		<div>
 			<h3 id="soalrelasidanfungsi">Soal Latihan</h3>
 			<pre>
 			<h4>1. Diketahui   = 3x -1 dengan daerah asal  , maka daerah hasilnya adalah ...
-	<input type="radio" name="satu"  value="1" >  {5,7,4,2,1,-2}         </input> <input type="radio" name="satu">  {-5,7,9,2,1,-2} </input>
+	<input type="radio" name="satu"  value="1" >  {5,7,4,2,1,-2}          </input> <input type="radio" name="satu">  {-5,7,9,2,1,-2} </input>
 	<input type="radio" name="satu" value="b"  >  {10,7,4,2,-1,-2}       </input> <input type="radio" name="satu" id="{-10,-7,-5,-2,-1,2}">  {-10,-7,-5,-2,-1,2} </input>
 			
 			<br>2. Jika garis 3y-2x=6  Sejajar dengan garis k, maka gradian garis k adalah…
@@ -1779,7 +1802,7 @@ function hasil9()
 			
 			<br>3. garis 3x-5y-1=0  tegak lurus dengan garis l, maka gradien garis l adalah…	
 	<input type="radio" name="tigaa" value="a"   > 3/5       </input>  <input type="radio" name="tigaa" value="c" id="5/3"  > 5/3 </input>
-	<input type="radio" name="tigaa"    > -3/5       </input> <input type="radio" name="tigaa" value="8"> -5/3 </input>
+	<input type="radio" name="tigaa"    > -3/5        </input>  <input type="radio" name="tigaa" value="8"> -5/3 </input>
 			
 			<br>4. Titik potong garis 3y - 2x + 13 = 0  dan x + 2y = -4 adalah…	
 	<input type="radio" name="tiga" value="a"  id="2,-3"  > 2,-3             </input> <input type="radio" name="tiga"> 2,3</input>
