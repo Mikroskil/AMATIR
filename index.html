@@ -363,6 +363,7 @@ function hasil()
 						  <li><a href="#unsurling">Unsur-unsur Lingkaran</a></li>
 						  <li><a href="#kelling">Keliling Lingkaran</a></li>
 						  <li><a href="#luasling">Luas Lingkaran</a></li>
+						  <li><a href="#soalling">Soal Latihan</a></li>
 
 						</ul>
 					  </div><!--/.well -->
@@ -455,6 +456,35 @@ function hasil1()
 	return document.chek1.skor1.value=jlh;
 }
 </script>
+<form name="chek1" method="post">
+		<div>
+			<h3 id="soalling">Soal Latihan</h3>
+			<pre>
+			<h4>1. Panjang diameter lingkaran yang memiliki jari-jari 7 cm = .. cm
+	<input type="radio" name="satu" value="d" >7        </input> <input type="radio" name="satu" id="14">14</input>
+	<input type="radio" name="satu" value="b">21      </input> <input type="radio" name="satu" value="d">15</input>
+			
+			<br>2. tentukan keliling lingkaran yang memiliki r=21 = ... cm
+	<input type="radio" name="dua" value="a">130      </input> <input type="radio" name="dua" value="c">108</input>
+	<input type="radio" name="dua" value="b">120      </input> <input type="radio" name="dua" id="132">132</input>
+			
+			<br>3. Tentukan luas lingkaran jika r=7 = ...
+	<input type="radio" name="tiga" value="a">151      </input> <input type="radio" name="tiga" value="c">152</input>
+	<input type="radio" name="tiga" value="b">153      </input> <input type="radio" name="tiga" id="154">154</input>
+			
+			<br>4. tentukan luas setengah lingkaran yg memiliki diameter 14 cm = ...
+	<input type="radio" name="empat" id="77">77        </input> <input type="radio" name="empat" value="c">28</input>
+	<input type="radio" name="empat" value="b">154      </input> <input type="radio" name="empat" value="d">56</input>
+			
+			<br>5. jika luas lingkaran 154 cm, tentukan keliling lingkaran = ... cm
+	<input type="radio" name="lima" value="a">22       </input> <input type="radio" name="lima" value="c">28</input>
+	<input type="radio" name="lima" id="44">44       </input> <input type="radio" name="lima" value="d">35</input>
+			</h4>
+			</pre>
+			<input type="button" onClick="hasil1()"  value="Check">  <input type="reset" value="reset">
+			Score : <input type="text" disabled name="skor1" size="3">
+		</div>
+	</form>
 						</div>
 						<div class="komen">
 							<hr class="featurette-divider garis">
