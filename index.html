@@ -941,7 +941,29 @@ function hasil3()
 					
 					<div class="col-md-9">
 						<div id="whywhy">
-						
+ <script language="javascript">
+function hasil8()
+{
+	var jlh=0;
+	
+	if(document.getElementById("24 dan 20").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("160 m").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("9 dan 6 meter").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("36 dan 24").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("1600").checked==true){
+	jlh++;}
+	
+	return document.chek8.skor.value=jlh;
+}
+</script>				
 						
 	<form name="chek8" method="post">
 		<div>
@@ -949,7 +971,7 @@ function hasil3()
 			<pre>
 			<h4>1. jika persegi panjang ABCD memiliki panjang dan lebar 4 cm dan 6 cm, tentukan L dan K ....
 	<input type="radio" name="satu" id="24 dan 20"  >  24 dan 20       </input> <input type="radio" name="satu"> 50 dan 20 </input>
-	<input type="radio" name="satu" value="b"       >  20 dan 10       </input> <input type="radio" name="satu" id="51 orang"> 24 dan 22 </input>
+	<input type="radio" name="satu" value="b"       >  20 dan 10       </input> <input type="radio" name="satu"> 24 dan 22 </input>
 			
 			<br>2. Pak Subur memiliki sebidang kebun berbentuk persegipanjang dengan luas 2 hektar.
 	Jika lebar kebun adalah 125 m, tentukan panjang kebun pak Subur tersebut!
@@ -967,11 +989,11 @@ function hasil3()
 			<br>5. Lukisan berbentuk persegi panjang berukuran 40 cm x 50 cm dipasang pada bingkai 
 	berbentuk persegi dengan panjang sisi 60 cm!
 	Tentukan luas daerah yang tidak tertutup gambar .... cm2
-	<input type="radio" name="empat" value="a"   > 1300 </input>			<input type="radio" name="empat" value="a" > 1500 </input>
-	<input type="radio" name="empat" value="a"   > 1400 </input>			<input type="radio" name="empat" value="a" id="1600"  > 1600 </input>
+	<input type="radio" name="lima" value="a"   > 1300 </input>			<input type="radio" name="lima" value="a" > 1500 </input>
+	<input type="radio" name="lima" value="a"   > 1400 </input>			<input type="radio" name="lima" value="a" id="1600"  > 1600 </input>
 			</h4>
 			</pre>
-			<input type="button" onClick="hasil7()"  value="Check">  <input type="reset" value="reset">
+			<input type="button" onClick="hasil8()"  value="Check">  <input type="reset" value="reset">
 			Score : <input type="text" disabled name="skor" size="3" >
 		</div>
 	</form>					             
