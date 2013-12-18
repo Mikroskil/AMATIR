@@ -2272,12 +2272,35 @@ function hasil10()
 											</tr>
 										</tbody>
 									</table>
-<form name="pangkat" method="post">
+<script language="javascript">
+function pangkat1()
+{
+	var jlh=0;
+	
+	if(document.getElementById("125").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("512").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("9").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("20").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("210").checked==true){
+	jlh++;}
+	
+	return document.chekpangkat.skor.value=jlh;
+}
+</script>
+<form name="chekpangkat" method="post">
 		<div>
 			<h3 id="soalpangkat">Soal Latihan</h3>
 			<pre>
 			<h4>1. Hasil dari 5<sup>3</sup> adalah ... 
-	<input type="radio" name="satu"  value="1"          >  25        </input> <input type="radio" name="satu" > 625 </input>
+	<input type="radio" name="satu"  value="1"          >  25        </input>  <input type="radio" name="satu" > 625 </input>
 	<input type="radio" name="satu" value="b" id="125"  >  125       </input> <input type="radio" name="satu" > 5 </input>
 			
 			<br>2. Hasil dari 8<sup>3</sup> x 8<sup>0</sup>
@@ -2297,7 +2320,7 @@ function hasil10()
 	<input type="radio" name="lima" value="dd" > 2<sup>3</sup>        </input>    <input type="radio" name="lima" value="d" > 2<sup>25</sup></input>
 			</h4>
 			</pre>
-			<input type="button" onClick="pangkat()"  value="Check">  <input type="reset" value="reset">
+			<input type="button" onClick="pangkat1()"  value="Check">  <input type="reset" value="reset">
 			Score : <input type="text" disabled name="skor" size="3" >
 		</div>
 	</form>
