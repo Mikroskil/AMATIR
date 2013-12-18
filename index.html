@@ -1960,8 +1960,30 @@ function hasil10()
 									<li class="dangerss">Sudut yang ukurannya 180<sup>o</sup> disebut <strong>sudut lurus</strong></li>
 								</ul>
 							</div>
-							
-<form name="cheklengkung" method="post">
+<script language="javascript">
+function sisi1()
+{
+	var jlh=0;
+	
+	if(document.getElementById("d1").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("d2").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("d3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("d4").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("d5").checked==true){
+	jlh++;}
+	
+	return document.cheksisi.skor.value=jlh;
+}
+</script>								
+<form name="cheksisi" method="post">
 		<div>
 			<h3 id="soalsisidatar">Soal Latihan</h3>
 			<pre>
