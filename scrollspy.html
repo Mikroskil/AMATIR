@@ -28,9 +28,35 @@
 		<h1>Soal Latihan</h1>
 		<p>Setelah mempelajari setiap <strong>judul</strong> yang ada, Kita akan <em>latihan</em> sedikit untuk <em>mengukur kemampuan</em> yang kita peroleh dari kita mempelajari semua judul yang ada. <strong>"SEMANGAT KAMU PASTI BISA.. ;)"</strong></p>
 		<p></p>
+<script language="javascript">
+function bagian1()
+{
+	var jlh=0;
+	
+	if(document.getElementById("j1").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j2").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j3").checked==true){
+	jlh++;}
+	if(jlh<3){
+	alert('Cobalah jawab dengan benar');
+	document.chekpertama.skor.value=jlh;
+	document.getElementById("satu").style.backgroundColor="red";}
+	else
+	{ alert('good, anda bisa melanjutkan ke bagian kedua');
+	document.getElementById("satu").style.backgroundColor="green";
+	document.getElementById("satu").style.color="white";
+	document.chekpertama.skor.value=jlh;
+	}
+}
+</script>
+
 		<h2>Bagian Pertama</h2>
 		<div class="back-shadow">
-		<form action="" method="get">
+		<form name="chekpertama" method="get">
 			<div id="bla">
 				<p>Jika diamter suatu lingkarang 14 m dan &pi; = 22/7, maka keliling lingkaran adalah...</p>
 				<p><input type="radio" name="jawab1" value="a" /> 14 m</p>
@@ -55,12 +81,17 @@
 					<p><input type="radio" name="jawab3" value="d" /> 8 cm</p>
 				</div>
 			</div>
+			<div id="bla">
+				<div class="inli">
+					<input type="button" value="check" OnClick="bagian1()">&nbsp;&nbsp;&nbsp; <input type="reset" value="ulangi">&nbsp;&nbsp;&nbsp; Benar : <b><input type="text" disabled id="satu" size="3" name="skor"></b>					
+				</div>
+			</div>
 		</form>
 		</div>
 		
-		<h2>Bagian Kedua</h2>
+		<h2 id="kedua">Bagian Kedua</h2>
 		<div class="back-shadow">
-		<form action="" method="get">
+		<form name="chekkedua"  method="get">
 			<div id="bla">
 				<p>tentukan luas segitiga ABC dik, a=4cm, c=5cm dimana C merupakan sisi miring = ... cm<sup>2</sup></p>
 				<p><input type="radio" name="jawab4" value="a" /> 5 m</p>
