@@ -2235,6 +2235,7 @@ function persamaan1()
 						<ul class="nav">
 						  <li><a href="#syaratbangun">Syarat Dua Bangun Datar Sebangun</a></li>
 						  <li><a href="#sifatseg">Sifat-sifat Dua Segitiga yang sebangun dan Kongruen</a></li>
+						  <li><a href="#soalsebangun">Soal Latihan</a></li>
 						</ul>
 					  </div><!--/.well -->
 					  <button class="punch">Download E-Book</button>
@@ -2285,7 +2286,61 @@ function persamaan1()
 								<h2 id="sifatseg">Sifat-sifat Dua Segitiga yang sebangun dan Kongruen</h2>
 								<p><strong>Perhatikan Gambar Berikut.!</strong></p>
 								<img src="pictmodul/sifatseg.png" alt="sifat segitiga" />
-						</div>
+<script language="javascript">
+function sisi11()
+{
+	var jlh=0;
+	
+	if(document.getElementById("dd1").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("dd2").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("dd3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("dd4").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("dd5").checked==true){
+	jlh++;}
+	
+	return document.cheksisi1.skor.value=jlh;
+}
+</script>								
+<form name="cheksisi1" method="post">
+		<div>
+			<h3 id="soalsebangun">Soal Latihan</h3>
+			<pre>
+			<h4>1. Perhatikan Soal Berikut :
+  <img src="img/datar1.jpg"> tentukan panjang DB ... ?
+	<input type="radio" name="satu"  value="1"    id="dd1"      >  5 cm        </input>    <input type="radio" name="satu" > 7 cm </input>
+	<input type="radio" name="satu" value="b"                  >  6 cm        </input>    <input type="radio" name="satu" > 8 cm </input>		
+			<br>2. Perhatikan Gambar dibawah :
+  <img src="img/datar2.jpg"> tentukan panjang QR ... ?
+	<input type="radio" name="dua" value="a"  >  45 cm        </input> <input type="radio" name="dua" value="c" id="dd2">  20 cm</input>
+	<input type="radio" name="dua" value="12" >  17 cm        </input> <input type="radio" name="dua" value="ff">  30 cm</input>			
+			<br>3. Perhatikan Gambar dibawah : 
+  <img src="img/datar3.jpg"> tentukan panjang DE ... ?
+	<input type="radio" name="tigaa" value="a"    > 17 cm      </input>   <input type="radio" name="tigaa" value="c"  > 19 cm </input>
+	<input type="radio" name="tigaa" id="dd3"      > 18 cm      </input>   <input type="radio" name="tigaa" value="8"  > 20 cm </input>			 
+			<br>4. Perhatikan Gambar dibawah : 
+  <img src="img/datar4.jpg"> tentukan panjang DE ... ?
+    <input type="radio" name="tiga" value="a"   > 10 cm                     </input> <input type="radio" name="tiga" id="dd4"   > 12 cm</input>
+    <input type="radio" name="tiga" value="ss"  > 11 cm                     </input> <input type="radio" name="tiga" value="8" > 13 cm</input>			
+			<br>5. Perhatikan Gambar dibawah : 
+  <img src="img/datar5.jpg"> tentukan panjang QS ... ?
+	<input type="radio" name="lima" value="a"  id="dd5"  > 4,5 cm        </input>    <input type="radio" name="lima"           > 7 cm </input>
+	<input type="radio" name="lima" value="dd"          > 5   cm         </input>    <input type="radio" name="lima" value="d" > 7,5 cm</input>
+			</h4>
+			</pre>
+			<input type="button" onClick="sisi11()"  value="Check">  <input type="reset" value="reset">
+			Score : <input type="text" disabled name="skor" size="3" >
+		</div>
+	</form>
+
+								</div>
 						<div class="komen">
 							<hr class="featurette-divider garis">
 							<fb:comments-count href=http://amatirr.tk/#kesebangunandankongruensi></fb:comments-count> komentar 
