@@ -52,6 +52,30 @@ function bagian1()
 	document.chekpertama.skor.value=jlh;
 	}
 }
+function bagian2()
+{
+	var jlh=0;
+	
+	if(document.getElementById("j4").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j5").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j6").checked==true){
+	jlh++;}
+	if(jlh<3){
+	alert('Cobalah jawab dengan benar');
+	document.chekkedua.skor.value=jlh;
+	document.getElementById("dua").style.backgroundColor="red";}
+	else
+	{ alert('good, anda bisa melanjutkan ke bagian ketiga');
+	document.getElementById("dua").style.backgroundColor="green";
+	document.getElementById("dua").style.color="white";
+	document.chekkedua.skor.value=jlh;
+	}
+}
+
 </script>
 
 		<h2>Bagian Pertama</h2>
@@ -113,6 +137,11 @@ function bagian1()
 					<p><input type="radio" name="jawab6" value="b" /> 1400 cm<sup>2</sup></p>
 					<p><input type="radio" name="jawab6" value="c" /> 1500 cm<sup>2</sup></p>
 					<p><input type="radio" name="jawab6" value="d" id="j6"/> 1600 cm<sup>2</sup></p>
+				</div>
+			</div>
+			<div id="bla">
+				<div class="inli">
+					<input type="button" value="check" OnClick="bagian2()">&nbsp;&nbsp;&nbsp; <input type="reset" value="ulangi">&nbsp;&nbsp;&nbsp; Benar : <b><input type="text" disabled id="dua" size="3" name="skor"></b>					
 				</div>
 			</div>
 		</form>
