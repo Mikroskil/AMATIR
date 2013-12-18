@@ -2166,9 +2166,7 @@ function hasil10()
 						  <li><a href="#ppositif">Bilangan Pangkat Positif</a></li>
 						  <li><a href="#pnegatif">Bilangan Pangkat Negatif</a></li>
 						  <li><a href="#pnol">Bilangan Pangkat Nol</a></li>
-						  <li><a href="#soalberpangkat">Latihan Soal</a></li>
-						  <li><a href="#">Bilangan Berpangkat</a></li>
-						  <li><a href="#">Video Tentang Bilangan Berpangkat</a></li>
+						  <li><a href="#soalpangkat">Latihan Soal</a></li>
 						</ul>
 					  </div><!--/.well -->
 					  <a href="https://www.dropbox.com/s/hg6cktbkxvk73cr/MTK.%20KLS%209%20BAB%205.%20BILANGAN%20BERPANGKAT%20DAN%20BENTUK%20AKAR.pdf"><button class="punch">Download E-Book</button></a>
@@ -2274,35 +2272,32 @@ function hasil10()
 											</tr>
 										</tbody>
 									</table>
-<form name="chek9" method="post">
+<form name="pangkat" method="post">
 		<div>
-			<h3 id="soalgarisdansudut">Soal Latihan</h3>
+			<h3 id="soalpangkat">Soal Latihan</h3>
 			<pre>
-			<h4>1. Pada sebuah persegi, besarnya sudut yang dapat dibentuk adalah ...
-	<input type="radio" name="satu"  value="1" >  1       </input> <input type="radio" name="satu">  3 </input>
-	<input type="radio" name="satu" value="b"  >  2       </input> <input type="radio" name="satu" id="4">  4 </input>
+			<h4>1. Hasil dari 5<sup>3</sup> adalah ... 
+	<input type="radio" name="satu"  value="1"          >  25        </input> <input type="radio" name="satu" > 625 </input>
+	<input type="radio" name="satu" value="b" id="125"  >  125       </input> <input type="radio" name="satu" > 5 </input>
 			
-			<br>2. Besar setiap sudut segi-20 beraturan adalah .... (UN '02)
-	<input type="radio" name="dua" value="a"  id="81 derajad">  18 derajad        </input> <input type="radio" name="dua" value="c" >  118 derajad</input>
-	<input type="radio" name="dua" value="12" >  81 derajad        </input> <input type="radio" name="dua" value="ff">  200 derajad</input>
+			<br>2. Hasil dari 8<sup>3</sup> x 8<sup>0</sup>
+	<input type="radio" name="dua" value="a"  id="512">  512        </input> <input type="radio" name="dua" value="c" >  625</input>
+	<input type="radio" name="dua" value="12"         >  514        </input> <input type="radio" name="dua" value="ff">  81</input>
 			
-			<br>3. pada gambar dibawah, besar sudut yang dibentuk oleh ruas garis OA dan OC adalah ...
-	<img  src="img/garis3.jpg">		
-	<input type="radio" name="tigaa" value="a"   > 30      </input>  <input type="radio" name="tigaa" value="c"  > 45 </input>
-	<input type="radio" name="tigaa"    id="60"> 60       </input> <input type="radio" name="tigaa" value="8"> 75 </input>
+			<br>3. Hasil dari 25<sup>3</sup> x 25<sup>6</sup> = ....
+	<input type="radio" name="tigaa" value="a"   > 25<sup>3</sup>         </input>   <input type="radio" name="tigaa" value="c"  id="9"> 25<sup>9</sup> </input>
+	<input type="radio" name="tigaa"             > 25<sup>6</sup>         </input>   <input type="radio" name="tigaa" value="8"> 25<sup>12</sup> </input>
+			 
+			<br>4. Hasil dari 2<sup>3</sup> x 2<sup>12</sup> x 2<sup>-15</sup> = ....	
+	<input type="radio" name="tiga" value="a"  id="20" > 2<sup>0</sup>             </input> <input type="radio" name="tiga"> 2<sup>2</sup></input>
+	<input type="radio" name="tiga" value="ss"         > 2<sup>1</sup>             </input> <input type="radio" name="tiga" value="8" > 2<sup>3</sup></input>
 			
-			<br>4. pada gambar dibawah, segitiga BOC berpelurus dengan .....
-	<img  src="img/garis4.jpg">		
-	<input type="radio" name="tiga" value="a"    > BOA             </input> <input type="radio" name="tiga"> FOB</input>
-	<input type="radio" name="tiga" value="ss" id="COD"  > COD             </input> <input type="radio" name="tiga" value="8" > COF</input>
-			
-			<br>5.  pada gambar dibawah, Besar sudut BED adalah .....(EBTANAS '96)
-	<img  src="img/garis5.jpg">
-	<input type="radio" name="lima" value="a" > 60       </input>    <input type="radio" name="lima" id="120"> 120</input>
-	<input type="radio" name="lima" value="dd" > 100        </input> <input type="radio" name="lima" value="d" > 160</input>
+			<br>5. Hasil dari (2<sup>5</sup>)<sup>2</sup> .....
+	<input type="radio" name="lima" value="a"  > 2<sup>7</sup>        </input>    <input type="radio" name="lima" id="210"> 2<sup>10</sup></input>
+	<input type="radio" name="lima" value="dd" > 2<sup>3</sup>        </input>    <input type="radio" name="lima" value="d" > 2<sup>25</sup></input>
 			</h4>
 			</pre>
-			<input type="button" onClick="hasil9()"  value="Check">  <input type="reset" value="reset">
+			<input type="button" onClick="pangkat()"  value="Check">  <input type="reset" value="reset">
 			Score : <input type="text" disabled name="skor" size="3" >
 		</div>
 	</form>
