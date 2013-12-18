@@ -98,7 +98,29 @@ function bagian3()
 	document.chekketiga.skor.value=jlh;
 	}
 }
-
+function bagian4()
+{
+	var jlh=0;
+	
+	if(document.getElementById("j10").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j11").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j12").checked==true){
+	jlh++;}
+	if(jlh<3){
+	alert('Cobalah jawab dengan benar');
+	document.chekkeempat.skor.value=jlh;
+	document.getElementById("empat").style.backgroundColor="red";}
+	else
+	{ alert('good, anda bisa melanjutkan ke bagian terakhir');
+	document.getElementById("empat").style.backgroundColor="green";
+	document.getElementById("empat").style.color="white";
+	document.chekkeempat.skor.value=jlh;
+	}
+}
 </script>
 
 		<h2>Bagian Pertama</h2>
@@ -206,7 +228,7 @@ function bagian3()
 		
 		<h2>Bagian Keempat</h2>
 		<div class="back-shadow">
-		<form action="" method="get">
+		<form name="chekkeempat" method="get">
 			<div id="bla">
 				<p>Penderita flu burung maupun muntaber yang dirawat di rumah sakit sebanyak 86 orang,
     35 orang menderita flu burung, dan 15 orang menderita flu burung juga muntaber.
@@ -232,12 +254,18 @@ function bagian3()
 					<p><input type="radio" name="jawab12" value="d" /> 3,2</p>
 				</div>
 			</div>
+			
+			<div id="bla">
+				<div class="inli">
+					<input type="button" value="check" OnClick="bagian4()">&nbsp;&nbsp;&nbsp; <input type="reset" value="ulangi">&nbsp;&nbsp;&nbsp; Benar : <b><input type="text" disabled id="empat" size="3" name="skor"></b>					
+				</div>
+			</div>
 		</form>
 		</div>
 		
 		<h2>Bagian Kelima</h2>
 		<div class="back-shadow">
-		<form action="" method="get">
+		<form name="chekkelima" method="get">
 			<div id="bla">
 				<p>Perhatikan Gambar dibawah :  </p>
 				<img src="img/datar5.jpg">tentukan panjang QS ... ?
