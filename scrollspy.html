@@ -75,6 +75,29 @@ function bagian2()
 	document.chekkedua.skor.value=jlh;
 	}
 }
+function bagian3()
+{
+	var jlh=0;
+	
+	if(document.getElementById("j7").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j8").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j9").checked==true){
+	jlh++;}
+	if(jlh<3){
+	alert('Cobalah jawab dengan benar');
+	document.chekketiga.skor.value=jlh;
+	document.getElementById("tiga").style.backgroundColor="red";}
+	else
+	{ alert('good, anda bisa melanjutkan ke bagian keEmpat');
+	document.getElementById("tiga").style.backgroundColor="green";
+	document.getElementById("tiga").style.color="white";
+	document.chekketiga.skor.value=jlh;
+	}
+}
 
 </script>
 
@@ -113,7 +136,7 @@ function bagian2()
 		</form>
 		</div>
 		
-		<h2 id="kedua">Bagian Kedua</h2>
+		<h2 >Bagian Kedua</h2>
 		<div class="back-shadow">
 		<form name="chekkedua"  method="get">
 			<div id="bla">
@@ -149,7 +172,7 @@ function bagian2()
 		
 		<h2>Bagian Ketiga</h2>
 		<div class="back-shadow">
-		<form action="" method="get">
+		<form name="chekketiga" method="get">
 			<div id="bla">
 				<p>Jarak antara Samarinda dan Sangkulirang dalam suatu peta adalah 6 cm. Jarak sebenarnya kedua kota itu adalah 180 km. Tentukan skala peta tersebut. = ...</p>
 				<p><input type="radio" name="jawab7" value="a" /> 1:5.000.000</p>
@@ -171,6 +194,11 @@ function bagian2()
 					<p><input type="radio" name="jawab9" value="b" /> (x - 1)(5x − 2)</p>
 					<p><input type="radio" name="jawab9" value="c" id="j9"/> (x - 1)(5x + 2)</p>
 					<p><input type="radio" name="jawab9" value="d" /> (x + 1)(5x − 2)</p>
+				</div>
+			</div>
+			<div id="bla">
+				<div class="inli">
+					<input type="button" value="check" OnClick="bagian3()">&nbsp;&nbsp;&nbsp; <input type="reset" value="ulangi">&nbsp;&nbsp;&nbsp; Benar : <b><input type="text" disabled id="tiga" size="3" name="skor"></b>					
 				</div>
 			</div>
 		</form>
