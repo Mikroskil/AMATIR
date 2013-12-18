@@ -2046,13 +2046,35 @@ function hasil10()
 					
 					<div class="col-md-9">
 						<div id="whywhy">
-							
+<script language="javascript">
+function persamaan1()
+{
+	var jlh=0;
+	
+	if(document.getElementById("p1").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("p2").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("p3").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("p4").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("p5").checked==true){
+	jlh++;}
+	
+	return document.chekpersamaan.skor.value=jlh;
+}
+</script>							
 <form name="chekpersamaan" method="post">
 		<div>
 			<h3 id="soalpersamaan">Soal Latihan</h3>
 			<pre>
 			<h4>1. Nilai x dari persamaan 4x – 6 = 10 adalah…
-	<input type="radio" name="satu"  value="1"    id="p1"      >  4        </input>     <input type="radio" name="satu" > 6 </input>
+	<input type="radio" name="satu"  value="1"    id="p1"      >  4        </input>    <input type="radio" name="satu" > 6 </input>
 	<input type="radio" name="satu" value="b"           >  16        </input>  <input type="radio" name="satu" > 14 </input>		
 			<br>2. Nilai x dari persamaan 14 – 4x = 6x – 16 adalah …
 	<input type="radio" name="dua" value="a"  >  1        </input> <input type="radio" name="dua" value="c" id="p2">  3</input>
@@ -2061,7 +2083,7 @@ function hasil10()
 	<input type="radio" name="tigaa" value="a"    >  4         </input>   <input type="radio" name="tigaa" value="c"  >  3 </input>
 	<input type="radio" name="tigaa" id="p3"      > -4         </input>   <input type="radio" name="tigaa" value="8"  > -3 </input>			 
 			<br>4. Penyelesaian dari pertidaksamaan 8x – 3 < 6x + 3 adalah …
-	<input type="radio" name="tiga" value="a"   > x<3 atau x>4             </input> <input type="radio" name="tiga" id="p4"   > x<3</input>
+	<input type="radio" name="tiga" value="a"   > x<3 atau x>4          </input> <input type="radio" name="tiga" id="p4"   > x<3</input>
 	<input type="radio" name="tiga" value="ss"  > x<=3                     </input> <input type="radio" name="tiga" value="8" > x>3</input>			
 			<br>5. Penyelesaian dari pertidaksamaan 2x + 4 ≤ 4x – 8 adalah …
 	<input type="radio" name="lima" value="a"  id="p5"  > x<=6        </input>    <input type="radio" name="lima"           > x<6</input>
