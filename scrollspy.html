@@ -121,6 +121,30 @@ function bagian4()
 	document.chekkeempat.skor.value=jlh;
 	}
 }
+function bagian5()
+{
+	var jlh=0;
+	
+	if(document.getElementById("j13").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j14").checked==true){
+	jlh++;}
+	
+	if(document.getElementById("j15").checked==true){
+	jlh++;}
+	if(jlh<3){
+	alert('Cobalah jawab dengan benar');
+	document.chekkelima.skor.value=jlh;
+	document.getElementById("lima").style.backgroundColor="red";}
+	else
+	{ alert('GOOD : SUKSES\n');
+	document.getElementById("lima").style.backgroundColor="green";
+	document.getElementById("lima").style.color="white";
+	document.chekkelima.skor.value=jlh;
+	}
+}
+
 </script>
 
 		<h2>Bagian Pertama</h2>
@@ -288,6 +312,11 @@ function bagian4()
 					<p><input type="radio" name="jawab15" value="b" /> 1700</p>
 					<p><input type="radio" name="jawab15" value="c" /> 1900</p>
 					<p><input type="radio" name="jawab15" value="d" /> 1653</p>
+				</div>
+			</div>
+			<div id="bla">
+				<div class="inli">
+					<input type="button" value="check" OnClick="bagian5()">&nbsp;&nbsp;&nbsp; <input type="reset" value="ulangi">&nbsp;&nbsp;&nbsp; Benar : <b><input type="text" disabled id="lima" size="3" name="skor"></b>					
 				</div>
 			</div>
 		</form>
